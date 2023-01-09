@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Job application" />
+		<meta name="keywords" content="job, work, position" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Job Application</title>
+		<link rel="stylesheet" href="./style.css" type="text/css" />
+	</head>
+	<body>
+		<img src="./images/background.jpg">
+		<!----------------------------------------------- HEADER ----------------------------------------------->
+		<header>
+			<h1>Apply for a job in Our Company</h1>
+		</header>
+		<!----------------------------------------------- SECTION ----------------------------------------------->
+		<section class="container">
+			<form>
+				<legend>
+					<span class="smallerInformation"
+						>Please complete the form below</span>
+				
+				<fieldset class="information">
+						<p>Check position:</p>
+						<select name="type">
+							<optgroup label="SALES">
+								<option value="1">Sales manager</option>
+								<option value="1">Sales consultant</option>
+							</optgroup>
+							<optgroup label="FINANCE">
+								<option valus="3">Accountant</option>
+								<option valus="4">Banker</option>
+								<option valus="4">Financial analyst</option>
+							</optgroup>
+						</select>
+						<input class="none">
+						<input class="none">
+						<input class="none">
+				</fieldset>
+				<fieldset class="name">
+					<p>Name:</p>
+					<input type="text" placeholder="Name" />
+						<input type="text" placeholder="Surname" />
+						<input type="text" class="none" />
+				</fieldset>
+		<!------------------------------------------------  EDUCATION, EXPERIENCE, SKILLS ----------------------------------------------->
+				<fieldset class="education">
+					<p>Education:</p>
+					<input type="date" data-date="date1" class="join" />
+					<input
+						type="text"
+						data-name="name1"
+						placeholder="Name of School"
+						class="join"
+					/>
+					<input
+						type="text"
+						data-name="name1"
+						placeholder="Field of study"
+						class="join"
+					/>
+				</fieldset>
+				<fieldset class="experience">
+					<p>Experience:</p>
+					<input type="date" data-date="date2" class="join" />
+					<input
+						type="text"
+						data-name="name2"
+						placeholder="Name of company"
+						class="join"
+					/>
+					<input
+						type="text"
+						data-name="name2"
+						placeholder="Position"
+						class="join"
+					/>
+				</fieldset>
+				<p class="textTextarea">Additional information:</p>
+					<textarea rows="5" name="additionalInformation"></textarea>
+		<!------------------------------------------------ CONTACT ------------------------------------------------>
+				<fieldset class="contact">
+					<p>Prefer contact:</p>
+					<label name="phone">
+						<span>Phone:</span>
+						<input type="checkbox" name="phone" class="checkbox"/>
+						<input type="number" placeholder="phone number" class="biggerInput" />
+					</label>
+					<label>
+						<span>Email:</span>
+						<input type="checkbox" name="email" class="checkbox" />
+						<input type="email" placeholder="mail" class="biggerInput" />
+					</label>
+					<label name="vacant">
+						<span>I can start job from:</span>
+						<input type="checkbox" class="checkbox" />
+						<input type="date" class="biggerInput" />
+					</label>
+					<label>
+						<span>Add my CV:</span>
+						<input type="checkbox" class="checkbox" />
+						<input type="submit">
+					</label>
+				</label>
+				<input type="submit" id="sent" value="SENT" />
+			</fieldset>
+		</legend>
+			</form>
+		</section>
+		<script src="./app.js"></script>
+	</body>
+</html>
