@@ -164,3 +164,20 @@ fieldset:hover {
 		width: 40%;
 	}
 }
+
+/*-------------- ADDITIONAL BUTTONS -ADD,DELETE EDUCATION,EXPERIENCE--------------*/
+.br{
+	content="";
+	width: 100%;
+	height: 0;
+}
+.addEducation, .addExperience{
+	background: rgba(48, 188, 48, 0.728) ;
+	font-weight: 900;
+	opacity: 0.7;
+}
+.deleteEducation, .deleteExperience{
+	background-color: rgb(255, 97, 97);
+	font-weight: 900;
+	opacity: 0.7;
+}
