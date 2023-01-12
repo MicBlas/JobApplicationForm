@@ -41,24 +41,24 @@
 				</fieldset>
 				<fieldset class="name">
 					<p>Name:</p>
-					<input type="text" placeholder="Name" />
-						<input type="text" placeholder="Surname" />
+					<input type="text" name="name" placeholder="Name" />
+						<input type="text" name="surname" placeholder="Surname" />
 						<input type="text" class="none" />
 				</fieldset>
 		<!------------------------------------------------  EDUCATION, EXPERIENCE, SKILLS ----------------------------------------------->
 				<fieldset class="education">
 					<p>Education:</p>
-					<input type="date" data-date="dateEducationStart" class="join" />
-					<input type="date" data-date="dateEducationFinish" class="join" />
+					<input type="date" id="dateEducationStart" class="join" />
+					<input type="date" id="dateEducationFinish" class="join" />
 					<input
 						type="text"
-						data-name="name1"
+						name="education"
 						placeholder="Name of School"
 						class="join"
 					/>
 					<input
 						type="text"
-						data-name="name1"
+						name="fieldOfStudy"
 						placeholder="Field of study"
 						class="join"
 					/>
@@ -68,17 +68,17 @@
 				</fieldset>
 				<fieldset class="experience">
 					<p>Experience:</p>
-					<input type="date" data-date="dateExperienceStart" class="join" />
-					<input type="date" data-date="dateExperienceFinish" class="join" />
+					<input type="date" id="dateExperienceStart" class="join" />
+					<input type="date" id="dateExperienceFinish" class="join" />
 					<input
 						type="text"
-						data-name="name2"
+						name="experience"
 						placeholder="Name of company"
 						class="join"
 					/>
 					<input
 						type="text"
-						data-name="name2"
+						name="formerPosition"
 						placeholder="Position"
 						class="join"
 					/>
@@ -93,22 +93,18 @@
 					<p>Prefer contact:</p>
 					<label name="phone">
 						<span>Phone:</span>
-						<input type="checkbox" name="phone" class="checkbox"/>
 						<input type="number" placeholder="phone number" class="biggerInput" />
 					</label>
 					<label>
 						<span>Email:</span>
-						<input type="checkbox" name="email" class="checkbox" />
 						<input type="email" placeholder="mail" class="biggerInput" />
 					</label>
 					<label name="vacant">
 						<span>I can start job from:</span>
-						<input type="checkbox" class="checkbox" />
-						<input type="date" class="biggerInput" />
+						<input type="date" id ="vacantDate" class="biggerInput" />
 					</label>
 					<label>
 						<span>Add my CV:</span>
-						<input type="checkbox" class="checkbox" />
 						<input type="submit">
 					</label>
 				</label>
