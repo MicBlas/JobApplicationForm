@@ -1,7 +1,7 @@
 $(function () {
 	//console.log("ok");
 });
-
+/*
 let education = $(".education");
 let experience = $(".experience");
 let addEducation = $(".addEducation");
@@ -38,4 +38,25 @@ deleteExperience.on("click", function (event) {
 	} else {
 		alert("If you don't have experience, don't delete it, but leave it blank");
 	}
+});*/
+
+$("#sent").click(function (e) {
+	e.preventDefault();
+	let position = $("option:selected").val();
+	let name = $("input[name=name]").val();
+	let surname = $("input[name=surname]").val();
+	let additionalInformation = $("textarea").val();
+	let phone = $("input[name=phone]").val();
+	let email = $("input[name=email]").val();
+	let vacant = $("#vacantDate").val();
+	let dateEducationStart = $("#dateEducationStart").val();
+	let dateEducationFinish = $("#dateEducationFinish").val();
+	let dateExperienceStart = $("#dateExperienceStart").val();
+	let dateExperienceFinish = $("#dateExperienceFinish").val();
+	let education = $("input[name=education]").val();
+	let fieldOfStudy = $("input[name=fieldOfStudy]").val();
+	let experience = $("input[name=experience]").val();
+	let formerPosition = $("input[name=formerPosition]").val();
+
+	console.log(dateExperienceStart);
 });
