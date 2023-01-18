@@ -1,7 +1,7 @@
 $(function () {
 	//console.log("ok");
 });
-/*
+
 let education = $(".education");
 let experience = $(".experience");
 let addEducation = $(".addEducation");
@@ -38,7 +38,7 @@ deleteExperience.on("click", function (event) {
 	} else {
 		alert("If you don't have experience, don't delete it, but leave it blank");
 	}
-});*/
+});
 
 $("#sent").click(function (e) {
 	e.preventDefault();
