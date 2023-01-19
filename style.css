@@ -163,6 +163,22 @@ fieldset:hover {
 	input[type="submit"] {
 		width: 40%;
 	}
+	body{
+		font-weight: 900;
+	}
+	.container:before{
+		content:"";
+		display: block;
+		height: 100%;
+		width: 100%;
+		position: absolute;
+		opacity: 0.2;
+		background-image: url("./images/background.jpg");
+		background-size: contain;
+	}
+	img{
+		display: none;
+	}
 }
 
 /*-------------- ADDITIONAL BUTTONS -ADD,DELETE EDUCATION,EXPERIENCE--------------*/
