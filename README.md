@@ -16,8 +16,8 @@ Features:
    ![ScreenShot](/images/focus.jpg)<br></br>
 5. Media queries<br></br>
 
-Screenshot for mobile phones:
-![ScreenShot](/images/mobilePhone.jpg)<br></br>
+Screenshot for mobile phones:</br>
+![ScreenShot](/images/mobilePhone.jpg)<br>
 
 Screenshot for large devices:
 ![ScreenShot](/images//largeDevice.jpg)
